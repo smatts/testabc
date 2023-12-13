@@ -1,21 +1,16 @@
----
-name: "My OER Course"
+'@context': schema.org
+creativeWorkStatus: Draft
+type: LearningResource
+name: OER GitHub Tutorial
+description: 'Tutorial für OER mit GitHub erstellen'
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 creator:
-  - givenName: "Max"
-    familyName: "Mustermann"
-  - givenName: "Maxi"
-    familyName: "Mustermann"
-publisher:
-  givenName: "Max"
-  familyName: "Mustermann"
-keywords:
-  - "Geometry"
-  - "Pythagoras"
-  - "Mathematics"
-description: "Draft for a course"
-inLanguage: "en"
-version: 1.0
-license: "https://creativecommons.org/publicdomain/zero/1.0/"
-thumbnailUrl: http://placehold.it/100x100
-learningResourceType: "Course"
-creativeWorkStatus: "Draft" # Incomplete, Draft, Published
+  - givenName: 'Sophie'
+    familyName: 'Matter'
+    type: Person
+inLanguage:
+  - de
+learningResourceType:
+  - https://w3id.org/kim/hcrt/course
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
